@@ -1,0 +1,59 @@
+.banner {
+    background-image: url(../images/Banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 152px;
+    /* внутренний отступ только сверху*/
+    padding-bottom: 266px;
+    /* внутренний отступ только снизу*/
+}
+
+.banner__title {
+    font-weight: 600;
+    /* Жирность текста*/
+    font-size: 80px;
+    /* Размер букв*/
+    line-height: 100%;
+    /* Межстрочный интервал*/
+    color: #fff;
+    /* Цвет текста*/
+    margin-bottom: 28px;
+    /* внешний отступ только снизу*/
+}
+
+.banner__text {
+    font-weight: 500;
+    /* Жирность текста*/
+    font-size: 20px;
+    /* Размер букв*/
+    line-height: 130%;
+    /* Межстрочный интервал*/
+    color: #fff;
+    /* Цвет текста*/
+    margin-bottom: 60px;
+    /* внешний отступ только снизу*/
+    max-width: 570px;
+}
+
+.banner__button {
+    border: none;
+    /*убирает стандартную серую рамку*/
+    background: #f0c631;
+    /* Цвет фона кнопки*/
+    color: #000;
+    /* Цвет текста*/
+    padding: 19px 54px;
+    max-width: 283px;
+    font-weight: 600;
+    /* Жирность текста*/
+    font-size: 16px;
+    /* Размер букв*/
+    line-height: 120%;
+    /* Межстрочный интервал*/
+    transition: background 200ms
+}
+
+.banner__button:hover {
+    background: #fff;
+}

@@ -1,0 +1,32 @@
+* {
+    margin: 0; /* Отключаем внешние отступы */
+    padding: 0; /* Отключаем внутренние отступы */
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    color: #6e6e6e;
+}
+
+ul {
+    list-style: none; /* Отключаем метки списка */
+}
+
+a {
+    text-decoration: none; /* Отключаем подчёркивание гиперссылки */
+    color: rgb(3, 150, 255); /* Задаём цвет ссылки */
+}
+
+img {
+    max-width: 100%; /* Ограничеваем ширину картинок блоком, в котором она находится */
+}
+
+.container {
+    max-width: calc(1200px + 15px * 2);
+    margin: 0 auto;
+    padding: 0 15px;
+}

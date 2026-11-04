@@ -1,0 +1,46 @@
+.header {
+    padding: 32px 0;
+    background-color: #fff;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+    gap: 30px;
+}
+
+.header__link {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000;
+    transition: color 200ms;
+    margin-bottom: 8px;
+    /* внешний отступ только снизу*/
+}
+
+.header__link:hover {
+    color: #f0c631;
+}
+
+.header__link--current {
+    border-bottom: 2px solid #f0c631;
+    padding-bottom: 8px;
+}
+
+.header__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__link--phone {
+    margin-bottom: 0;
+}
+

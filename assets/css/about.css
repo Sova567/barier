@@ -1,0 +1,123 @@
+.about {
+    padding-top: 200px;
+    /* внутренний отступ только сверху*/
+    padding-bottom: 100px;
+    /* внутренний отступ только снизу*/
+}
+
+.about__wrapper {
+    position: relative;
+}
+
+.about__wrapper::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 252px;
+    height: 136px;
+    /* Создает круглые точки диаметром 4px с шагом в 16px */
+    background-image: radial-gradient(#f0c631 4px, transparent 2px);
+    background-size: 23px 24px;
+}
+
+.about__title {
+    font-weight: 600;
+    /* Жирность текста*/
+    font-size: 40px;
+    /* Размер букв*/
+    line-height: 110%;
+    /* Межстрочный интервал*/
+    color: #000;
+    /* Цвет текста*/
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    /* внешний отступ только снизу*/
+}
+
+.about__text {
+    font-weight: 500;
+    /* Жирность текста*/
+    font-size: 20px;
+    /* Размер букв*/
+    line-height: 130%;
+    /* Межстрочный интервал*/
+    color: #6e6e6e;
+    /* Цвет текста*/
+    margin-bottom: 64px;
+    /* внешний отступ только снизу*/
+    max-width: 570px;
+}
+
+.about__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.about__item {
+    width: 394px;
+    min-height: 300px;
+    background: #fafafa;
+}
+
+.about__item--safety {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1), 0 11px 24px 0 rgba(0, 0, 0, 0.1), 0 43px 43px 0 rgba(0, 0, 0, 0.09), 0 98px 59px 0 rgba(0, 0, 0, 0.05), 0 173px 69px 0 rgba(0, 0, 0, 0.01), 0 271px 76px 0 rgba(0, 0, 0, 0);
+    background: #f0c631;
+}
+
+.about__content {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    color: #000;
+    padding: 30px;
+}
+
+/* .about__content--location {
+    max-width: 300px;
+}
+
+.about__content--location::before {
+    content: '';
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    background-image: url('../images/location.svg');
+}
+
+.about__content--safety {
+    font-weight: 700;
+    max-width: 370px;
+}
+
+.about__content--safety::before {
+    content: '';
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    background-image: url('../images/safety.svg');
+}
+
+.about__content--brigades {
+    max-width: 300px;
+    gap: 82px;
+}
+
+.about__content--brigades::before {
+    content: '';
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-image: url('../images/brigades.svg');
+} */
+
+.about__content--safety {
+    color: #73640A;
+    font-weight: 400;
+}
+
+.about__content--safety span {
+    color: #000;
+    font-weight: 700;
+}
