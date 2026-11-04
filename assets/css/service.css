@@ -1,0 +1,91 @@
+.service {
+    padding-top: 200px;
+    overflow-x: hidden;
+}
+
+.service__wrapper {
+    position: relative;
+    display: grid;    
+    grid-template-columns: 1fr 1fr;
+    /* Создает 2 колонки абсолютно одинаковой ширины */
+    column-gap: 60px; /* Расстояние (промежуток) между левой и правой стороной */
+}
+
+.service__wrapper::after {
+    content: '';
+    position: absolute;
+    top: 182px;
+    left: -48px;
+    z-index: -1;
+    width: 252px;
+    height: 220px;
+    background-image: radial-gradient(#f0c631 4px, transparent 2px);/* Создает круглые точки диаметром 4px с шагом в 16px */
+    background-size: 23px 24px;
+}
+
+.service__left--title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 110%;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.service__text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    color: #6e6e6e;
+    max-width: 570px;
+}
+
+.service__left--text {
+    margin-bottom: 96px;
+    max-width: 445px;
+}
+
+.service__left--foto {
+    width: 570px;
+    margin-bottom: 64px;
+}
+
+.service__subtitle {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.service__left--subtitle {
+    margin-bottom: 20px;
+}
+
+.service__info {
+    background: #fafafa;
+    padding-block: 20px;
+    padding-left: 24px;
+    
+    margin-right: -100vw;
+    padding-right: 100vw;
+    margin-bottom: 64px;
+}
+
+.service__info--text {
+    width: 546px;
+}
+
+.service__right--subtitle {
+    margin-bottom: 20px;
+}
+
+.service__right--text {
+    margin-bottom: 64px;
+}
+
+.service__right--foto {
+    width: 570px;
+}
+
+
