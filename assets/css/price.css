@@ -1,5 +1,6 @@
 .price {
-    padding-top: 206px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .price__wrapper {
@@ -44,23 +45,20 @@
     width: 100%;
     text-align: left;
     border-collapse: collapse;
-}
-
-.price__table td,
-.price__table th {
-    padding: 40px 30px;
-    font-weight: 500;
-    font-size: 20px;
-}
-
-.price__table th {
-    line-height: 120%;
-    color: #000;
+    table-layout: fixed;
 }
 
 .price__table td {
+    padding: 40px 30px;
+    font-weight: 500;
+    font-size: 20px;
     line-height: 130%;
     color: #6e6e6e;
+}
+
+.price__table td:first-child {
+    line-height: 120%;
+    color: #000;
 }
 
 .price__table tr:nth-child(odd) {
