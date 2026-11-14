@@ -15,7 +15,7 @@
     top: 0;
     right: 0;
     width: 252px;
-    height: 136px;
+    height: 128px;
     /* Создает круглые точки диаметром 4px с шагом в 16px */
     background-image: radial-gradient(#f0c631 4px, transparent 2px);
     background-size: 23px 24px;
