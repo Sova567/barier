@@ -32,6 +32,10 @@
     max-width: 445px;
 }
 
+.service__text--long {
+    max-width: 546px;
+}
+
 .service__info {
     background: #fafafa;
     padding-block: 20px;
@@ -70,7 +74,7 @@
 }
 
 .service__photo {
-    max-width: 570px;
+    width: 570px;
 }
 
 
