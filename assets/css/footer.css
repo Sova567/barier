@@ -4,12 +4,10 @@
 
 .footer__contact {
     padding-block: 43px;
-    height: 130px;
     background: #f0c631;
 }
 
 .footer__subfooter {
-    height: 376px;
     background: #000;
     padding-block: 100px;
 }
@@ -31,6 +29,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-bottom: 64px;
+    border-bottom: 1px solid #6e6e6e;
+    margin-bottom: 36px;
 }
 
 .footer__list {
@@ -53,6 +53,12 @@
     color: #6e6e6e;
 }
 
+.footer__info--copyright {
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
 .footer__link {
     font-weight: 600;
     font-size: 14px;
@@ -60,15 +66,4 @@
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: #fff;
-}
-
-.footer__communication--current {
-    border-bottom: 1px solid #6e6e6e;
-    margin-bottom: 36px;
-}
-
-.footer__info-copyright {
-    font-size: 14px;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
 }

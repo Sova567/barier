@@ -56,13 +56,9 @@
 }
 
 .about__item {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-between; */
     display: grid;
     grid-template-rows: 1fr auto;
     align-items: start;
-    min-height: 300px;
     background: #fafafa;
     padding: 30px;
     gap: 62px;
@@ -73,7 +69,7 @@
     background: #f0c631;
 }
 
-.about__content {   
+.about__content {
     font-weight: 500;
     font-size: 24px;
     line-height: 120%;
@@ -98,43 +94,6 @@
     margin-top: 10px;
 }
 
-/* .about__content--location {
-    max-width: 300px;
-}
-
-.about__content--location::before {
-    content: '';
-    display: inline-block;
-    width: 120px;
-    height: 120px;
-    background-image: url('../images/location.svg');
-}
-
-.about__content--safety {
-    font-weight: 700;
-    max-width: 370px;
-}
-
-.about__content--safety::before {
-    content: '';
-    display: inline-block;
-    width: 120px;
-    height: 120px;
-    background-image: url('../images/safety.svg');
-}
-
-.about__content--brigades {
-    max-width: 300px;
-    gap: 82px;
-}
-
-.about__content--brigades::before {
-    content: '';
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    background-image: url('../images/brigades.svg');
-} */
 
 .about__content--safety {
     color: #73640A;
